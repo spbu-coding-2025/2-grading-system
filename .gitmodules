@@ -56,3 +56,7 @@
 	path = 2-Maxllon
 	url = https://github.com/spbu-coding-2025/2-Maxllon.git
 	branch = main
+[submodule "2-Redkin-Aleksey"]
+	path = 2-Redkin-Aleksey
+	url = https://github.com/spbu-coding-2025/2-Redkin-Aleksey.git
+	branch = main
