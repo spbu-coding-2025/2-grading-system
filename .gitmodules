@@ -68,3 +68,7 @@
 	path = 2-Vlm326
 	url = https://github.com/spbu-coding-2025/2-Vlm326.git
 	branch = main
+[submodule "2-arinamklvch"]
+	path = 2-arinamklvch
+	url = https://github.com/spbu-coding-2025/2-arinamklvch.git
+	branch = main
