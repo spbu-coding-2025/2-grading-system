@@ -84,3 +84,7 @@
 	path = 2-diegoroflan
 	url = https://github.com/spbu-coding-2025/2-diegoroflan.git
 	branch = main
+[submodule "2-estoniec"]
+	path = 2-estoniec
+	url = https://github.com/spbu-coding-2025/2-estoniec.git
+	branch = main
