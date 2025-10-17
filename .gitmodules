@@ -16,3 +16,7 @@
 	path = 2-DenisPotapov0
 	url = https://github.com/spbu-coding-2025/2-DenisPotapov0.git
 	branch = main
+[submodule "2-Esoteria11"]
+	path = 2-Esoteria11
+	url = https://github.com/spbu-coding-2025/2-Esoteria11.git
+	branch = main
