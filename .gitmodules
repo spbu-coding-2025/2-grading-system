@@ -76,3 +76,7 @@
 	path = 2-danisaev
 	url = https://github.com/spbu-coding-2025/2-danisaev.git
 	branch = main
+[submodule "2-dem0phob1a"]
+	path = 2-dem0phob1a
+	url = https://github.com/spbu-coding-2025/2-dem0phob1a.git
+	branch = main
