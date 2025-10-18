@@ -144,3 +144,7 @@
 	path = 2-e-leshnik
 	url = https://github.com/spbu-coding-2025/2-e-leshnik.git
 	branch = main
+[submodule "2-e4d08"]
+	path = 2-e4d08
+	url = https://github.com/spbu-coding-2025/2-e4d08.git
+	branch = main
