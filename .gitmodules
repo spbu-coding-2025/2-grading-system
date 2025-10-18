@@ -140,3 +140,7 @@
 	path = 2-alferukn
 	url = https://github.com/spbu-coding-2025/2-alferukn.git
 	branch = main
+[submodule "2-e-leshnik"]
+	path = 2-e-leshnik
+	url = https://github.com/spbu-coding-2025/2-e-leshnik.git
+	branch = main
