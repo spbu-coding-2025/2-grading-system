@@ -148,3 +148,7 @@
 	path = 2-e4d08
 	url = https://github.com/spbu-coding-2025/2-e4d08.git
 	branch = main
+[submodule "2-gorbuzova"]
+	path = 2-gorbuzova
+	url = https://github.com/spbu-coding-2025/2-gorbuzova.git
+	branch = main
