@@ -136,3 +136,7 @@
 	path = 2-Ramenart
 	url = https://github.com/spbu-coding-2025/2-Ramenart.git
 	branch = main
+[submodule "2-alferukn"]
+	path = 2-alferukn
+	url = https://github.com/spbu-coding-2025/2-alferukn.git
+	branch = main
