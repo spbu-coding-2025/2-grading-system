@@ -172,3 +172,7 @@
 	path = 2-aleksandrgarin
 	url = https://github.com/spbu-coding-2025/2-aleksandrgarin.git
 	branch = main
+[submodule "2-atsa111"]
+	path = 2-atsa111
+	url = https://github.com/spbu-coding-2025/2-atsa111.git
+	branch = main
