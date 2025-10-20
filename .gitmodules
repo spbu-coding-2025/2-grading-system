@@ -184,3 +184,7 @@
 	path = 2-IvRevver
 	url = https://github.com/spbu-coding-2025/2-IvRevver.git
 	branch = main
+[submodule "2-RannyayaAnastasia"]
+	path = 2-RannyayaAnastasia
+	url = https://github.com/spbu-coding-2025/2-RannyayaAnastasia.git
+	branch = main
