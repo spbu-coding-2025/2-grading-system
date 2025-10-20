@@ -119,7 +119,7 @@ fi
 STUDENT_LOGIN="${GH_SUBMODULE#"${GH_PROBLEM_NAME}-"}"
 
 if [[ -n "$IS_CI" ]]; then
-	printf"::group::"
+	printf "::group::"
 fi
 echo "Try to submit solution using student's GitHub login"
 
@@ -148,7 +148,7 @@ if [[ -n "$IS_CI" ]]; then
 fi
 
 if [[ -n "$IS_CI" ]]; then
-	printf"::group::"
+	printf "::group::"
 fi
 echo "Try to submit solution using student's name"
 
