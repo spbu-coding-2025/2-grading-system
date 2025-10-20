@@ -123,7 +123,7 @@ if [[ -n "$IS_CI" ]]; then
 fi
 echo "Try to submit solution using student's GitHub login"
 
-if curl -X 'POST' \
+if curl -X 'POST' --fail-with-body \
   "https://hwproj.ru/api/Solutions/automated/$HWPROJ_COURSE_ID" \
   -H 'accept: */*' \
   -H "Authorization: Bearer $HWPROJ_AUTH_TOKEN" \
@@ -154,7 +154,7 @@ echo "Try to submit solution using student's name"
 
 STUDENT_NAME=$(awk -v login="$STUDENT_LOGIN" 'BEGIN{FS=","}{ if ($2==login) print$1 }' "$HWPROJ_STUDENTS_PATH")
 
-if curl -X 'POST' \
+if curl -X 'POST' --fail-with-body \
   "https://hwproj.ru/api/Solutions/automated/$HWPROJ_COURSE_ID" \
   -H 'accept: */*' \
   -H "Authorization: Bearer $HWPROJ_AUTH_TOKEN" \
