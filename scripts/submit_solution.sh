@@ -137,17 +137,14 @@ if curl -X 'POST' --fail-with-body \
   \"comment\": \"Автоматизированно\"
 }"; then
 	if [[ -n "$IS_CI" ]]; then
-		echo "::endgroup::"
+		printf "\n::endgroup::\n"
 	fi
 	echo "Submitted successfully"
 	exit 0
 fi
 
 if [[ -n "$IS_CI" ]]; then
-	echo "::endgroup::"
-fi
-
-if [[ -n "$IS_CI" ]]; then
+	printf "\n::endgroup::\n"
 	printf "::group::"
 fi
 echo "Try to submit solution using student's name"
@@ -168,14 +165,14 @@ if curl -X 'POST' --fail-with-body \
   \"comment\": \"Автоматизированно\"
 }"; then
 	if [[ -n "$IS_CI" ]]; then
-		echo "::endgroup::"
+		printf "\n::endgroup::\n"
 	fi
 	echo "Submitted successfully"
 	exit 0
 fi
 
 if [[ -n "$IS_CI" ]]; then
-	echo "::endgroup::"
+	printf "\n::endgroup::\n"
 fi
 
 echo "Cannot submit solution"
