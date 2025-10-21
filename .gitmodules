@@ -204,3 +204,7 @@
 	path = 2-kabkyrie
 	url = https://github.com/spbu-coding-2025/2-kabkyrie.git
 	branch = main
+[submodule "2-kevetka"]
+	path = 2-kevetka
+	url = https://github.com/spbu-coding-2025/2-kevetka.git
+	branch = main
