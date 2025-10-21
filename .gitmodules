@@ -196,3 +196,7 @@
 	path = 2-AnastasiyaMedentseva
 	url = https://github.com/spbu-coding-2025/2-AnastasiyaMedentseva.git
 	branch = main
+[submodule "2-davidgordievskij07-cmd"]
+	path = 2-davidgordievskij07-cmd
+	url = https://github.com/spbu-coding-2025/2-davidgordievskij07-cmd.git
+	branch = main
