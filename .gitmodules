@@ -224,3 +224,7 @@
 	path = 2-altrum06
 	url = https://github.com/spbu-coding-2025/2-altrum06.git
 	branch = main
+[submodule "2-OZDOEV-AI"]
+	path = 2-OZDOEV-AI
+	url = https://github.com/spbu-coding-2025/2-OZDOEV-AI.git
+	branch = main
